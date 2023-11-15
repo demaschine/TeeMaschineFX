@@ -16,5 +16,7 @@ Unter den VM Options wird dieses Befehl reinkopiert:
 --module-path "\path\to\javafx-sdk-21.0.1\lib" --add-modules javafx.controls,javafx.fxml
 
 Allgemein gilt es bei neu auftretenden Fehlern, die in der ReadME nicht beschrieben wurden, die Docs zu JavaFX zu lesen.
+
 => https://docs.gluonhq.com/
+
 => https://openjfx.io/openjfx-docs/

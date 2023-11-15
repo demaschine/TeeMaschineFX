@@ -6,7 +6,7 @@ Um die GUI für die Teemaschine zu Starten gilt es,
 1. diese Respository zu Clonen.
 2. Die in der Respository vorhandene lib der Jar Datei, der JavaFX bei InteliJ bei den Modulen hinzuzufügen.
    
-# Normalerweise sollte ab diesem Punkt Intelij in der Lage sein, die JavaFX Main auszuführen. Sollte dies nicht der Fall sein, so muss man unter umständen die Umgebungsvariablen der IDE umändern.
+Normalerweise sollte ab diesem Punkt Intelij in der Lage sein, die JavaFX Main auszuführen. Sollte dies nicht der Fall sein, so muss man unter umständen die Umgebungsvariablen der IDE umändern.
 => Diese findet man Unter Settings -> Build, Execution, Deployment -> Compiler -> Java Compiler. 
 
 Dort muss das Modul mindestens eine Byteversion von 9 oder höher besitzen.

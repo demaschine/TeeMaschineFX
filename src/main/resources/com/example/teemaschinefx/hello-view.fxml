@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="850" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.teemaschinefx.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Line endX="-99.36568450927734" endY="-169.9665985107422" scaleX="1.5" scaleY="9.4" startX="-100.0" startY="-100.0" translateX="-140.0" translateY="238.0">
+      <rotationAxis>
+         <Point3D />
+      </rotationAxis>
+   </Line>
+   <Group translateX="-283.0" translateY="-10.0">
+      <children>
+         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ededed" height="91.0" opacity="0.1" stroke="BLACK" strokeType="INSIDE" translateX="-260.0" translateY="-180.0" width="260.0" />
+         <Text layoutX="26.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tee Maschine 1 Graphisches Interface" textAlignment="CENTER" translateX="-260.0" translateY="-155.0" wrappingWidth="211.13671875">
+            <font>
+               <Font size="22.0" />
+            </font>
+         </Text>
+         <Text layoutX="-220.0" layoutY="-60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yann Possmann, Paul Sas">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+      </children>
+   </Group>
+   <Line endX="100.0" scaleX="1.42" startX="-100.0" translateX="-282.0" translateY="-10.0" />
+   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Status: " translateX="-280.0" translateY="-10.0">
+      <font>
+         <Font size="17.0" />
+      </font>
+   </Text>
+   <Group translateX="-280.0" translateY="-10.0">
+      <children>
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Wassertemeperatur:        °C" translateX="-320.0" translateY="-250.0">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+         <Label fx:id="temp" translateX="-163.0" translateY="-268.0">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Label>
+         <Text layoutX="1.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wasserstand: VALUE_WHeight_%" translateX="-320.0" translateY="-250.0" visible="false">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+      </children>
+   </Group>
+   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Auswahl der Tee Sorte" translateX="150.0" translateY="-240.0">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Text>
+   <Label fx:id="tempText" alignment="CENTER" prefHeight="35.0" prefWidth="473.0" textAlignment="CENTER" translateX="148.0" translateY="-140.0">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Label fx:id="errText" alignment="CENTER" prefHeight="35.0" prefWidth="473.0" textAlignment="CENTER" translateX="148.0" translateY="-187.0">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Group translateX="150.0" translateY="-300.0">
+      <children>
+         <Button fx:id="button1" focusTraversable="false" mnemonicParsing="false" onAction="#starteTee1" prefHeight="50.0" prefWidth="200.0" style="-fx-focus-color: transparent; -fx-faint-focus-color: transparent;" text="Schwarzer Tee" translateY="30.0">
+            <font>
+               <Font name="Arial" size="18.0" />
+            </font>
+         </Button>
+         <Button fx:id="button2" focusTraversable="false" layoutY="70.0" mnemonicParsing="false" onAction="#starteTee2" prefHeight="50.0" prefWidth="200.0" style="-fx-focus-color: transparent; -fx-faint-focus-color: transparent;" text="Grüner Tee" translateX="240.0" translateY="-40.0">
+            <font>
+               <Font name="Arial" size="18.0" />
+            </font>
+         </Button>
+      </children>
+   </Group>
+   <Label fx:id="countdown" alignment="CENTER" prefHeight="35.0" prefWidth="473.0" textAlignment="CENTER" translateX="148.0" translateY="-260.0">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+</VBox>

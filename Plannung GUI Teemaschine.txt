@@ -1,0 +1,26 @@
+Anwendungsanforderungen zu der GUI für die Serielle Schnittstelle der Teemaschine. 
+
+- Weißes Graphical User Interface mit einem Kleinem Logo links in der Ecke. 
+- Statusanzeigen über die Wassertemperatur, die Aktuell ausgelesen wird von dem Temperatursensor. ((Erweiterbar um den Wasserpegelstand))
+
+- Auswahlmöglichkeit für zwei Tee Sorten.
+
+==> Nach der Auswahl der Tee Sorte wird ein Timer / Ladebalken Gestartet, welcher die Verbleibene Zeit anzeigt, welche benötigt wird, dass der Tee fertig ist. 
+
+Klassendiagramm des GUI Controllers. 
+
+!! @Override => die FXML Werte sollen übernommen werden. !! 
+
+starteTee1(); //Startet die Methode Tee Zeit
+
+starteTee2(); //Startet die Methode Tee Zeit
+
+
+TODO: 
+ 
+- Status über die Heizspule hinzufügen falls möglich. 
+
+Die Serielle Schnittstelle anbinden.
+
+- Temperatur werte methode bei SerSch anpassen. 
+- Bei inbetriebnahme Duration auf Minuten umändern. 
